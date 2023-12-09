@@ -508,7 +508,7 @@ class kenoapp:
                 print(req)
             for i in req:
                 getusername = req.json()['data']['user']['name']
-                req = requests.get("https://pastebin.com/raw/RJVsG7B0").json()
+                req = requests.get("https://pastebin.com/raw/braqE5KZ").json()
                 if getusername in req["list-username"]:
                     return
                 else:
@@ -521,7 +521,7 @@ class kenoapp:
     def verification_ip(self):
         hostname = socket.gethostname()
         IPAddr = socket.gethostbyname(hostname)
-        req = requests.get("https://pastebin.com/raw/0NCUTVFu").json()
+        req = requests.get("https://pastebin.com/raw/CRr7P7ui").json()
         self.note = req["note"]
         if IPAddr in req["meduk"]:
             return
@@ -1873,7 +1873,7 @@ class kenoapp:
         chat_id = "-1001873261891"
         os.system('cls' if sys.platform == 'win32' else 'clear')
         date = requests.get("https://pastebin.com/raw/1HrL5e6J").json()
-        req_ = requests.get("https://pastebin.com/raw/R3KpPADU").json()
+        req_ = requests.get("https://pastebin.com/raw/R1XVCx78").json()
         hostname = socket.gethostname()
         IPAddr = socket.gethostbyname(hostname)
         date_ = date["note"]
